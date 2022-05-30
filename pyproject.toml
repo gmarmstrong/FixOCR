@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fixocr"
+version = "0.1.0"
+description = ""
+authors = [
+    "Guthrie McAfee Armstrong <git@gmarmstrong.dev>",
+    "Alex Holmes",
+    "Sourin Paturi"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.1.2"
+Jinja2 = "^3.1.2"
+tesserocr = "^2.5.2"
+Pillow = "*"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
